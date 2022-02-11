@@ -1,0 +1,307 @@
+body {
+    background-image: url("bg2.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav-link:hover {
+    background-color: #111;
+}
+
+#header-img {
+    padding: 8px;
+    width: 50px;
+}
+
+#nav-bar {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+}
+
+main {
+    background-color: /*rgba(51, 51, 51, 0.459)*/
+    #282152a4;
+    margin: 4em;
+}
+
+#pre-video {
+    font-size: xx-large;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#main-img {
+    margin-left: 125px;
+    width: 1150px;
+}
+
+#p-gameplay,
+#p-slideshow,
+#p-cards,
+#p-maps,
+#p-form {
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#p-gameplay {
+    padding-top: 12rem;
+}
+
+#video {
+    padding-top: 20px;
+    margin-left: 200px;
+    width: 1000px;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: 2em;
+    width: 500px;
+}
+
+.card-img {
+    padding: 2em;
+    height: 350px;
+    width: 350px;
+}
+
+.card-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card-info {
+    color: whitesmoke;
+    font-size: large;
+    padding-left: 2em;
+}
+
+.card-button {
+    background-color: #B3215F;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.card-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#due-butt,
+#ini-butt {
+    margin-top: 50px;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 750px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.map-title {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.map-info {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#map-sec1 {
+    flex-shrink: 1;
+}
+
+#map-sec2 {
+    height: 350px;
+}
+
+.map-cards1 {
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: 2em;
+    width: 500px;
+    flex-grow: 1;
+}
+
+.cards1 {
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: 2em;
+    width: 500px;
+    height: 350px;
+}
+
+#flex-container2 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#flex-container3 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.map-img {
+    float: right;
+    height: 300px;
+    width: 600px;
+    padding: 0px 30px 30px 30px;
+}
+
+.slideshow-img {
+    width: 1000px;
+    margin-left: 200px;
+}
+
+.img-carousel {
+    width: 500px;
+    height: 500px;
+}
+
+#form {
+    padding: 20px 0px 40px 600px;
+}
+
+#footer {
+    margin-bottom: 0;
+    background-color: #333;
+}
+
+#footerDesc {
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#footerImg {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+    margin: 0px 0px 20px 20px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 100px;
+}
+
+.fa-instagram {
+    background: #f40083;
+    color: white;
+    width: 100px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 100px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transform: scale(1.5);
+}
+
+#sm-links {
+    padding-left: 30px;
+}
