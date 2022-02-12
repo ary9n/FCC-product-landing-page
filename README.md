@@ -7,7 +7,8 @@
 - VS Code used as the Text Editor.
 - HTML5, CSS3 and Bootstrap 5 have been used for frontend.
 
-# Outcome
+# Outcome 
+- https://ary9n.github.io/FCC-product-landing-page/
 - The website doesn't have any actual working.
 - Its sole purpose is to showcase the use of different frontend techniques.
 
